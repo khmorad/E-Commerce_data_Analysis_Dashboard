@@ -7,7 +7,8 @@
 
 ## Preview
 
-![Preview Image](https://cdn.discordapp.com/attachments/1015033055775305831/1180727491804024862/image.png?ex=657e792a&is=656c042a&hm=a9c27bf5bf0dde2bf3afe334bf198838d38075723c03016aca35f6920b3fe0d6&)
+![Dashboard Image](https://raw.githubusercontent.com/khmorad/Yar-portfolio/main/src/assets/images/DASHBOARD.png)
+
 
 
 ## Project Vision
@@ -16,7 +17,7 @@ When visualizing this project, we were inspired by the growing importance of usi
 
 ## Background, Ideas, Goals
 
-In the expansive realm of online commerce, a wealth of valuable information is routinely gathered, including sales data, customer behavior, and product popularity. Our mission is to create an analytical dashboard that is user-friendly and easy to navigate. The dashboard will provide data from WooCommerce, a widely used tool for online shops. This project aims to help businesses analyze their sales, understand their customers, and optimize their product offerings to increase sales and profitability. Additionally, the dashboard will enable online stores to track inventory levels and make informed restocking decisions. We will use Python, along with libraries like pandas, numpy, and matplotlib, to handle data manipulation, analysis, and visualization. The WooCommerce API will be employed to retrieve necessary data.
+In the expansive realm of online commerce, a wealth of valuable information is routinely gathered, including sales data, customer behavior, and product popularity. Our mission is to create an analytical dashboard that is user-friendly and easy to navigate. The dashboard will provide data from WooCommerce, a widely used tool for online shops. This project aims to help businesses analyze their sales, understand their customers, and optimize their product offerings to increase sales and profitability. Additionally, the dashboard will enable online stores to track inventory levels and make informed restocking decisions. We will use Python, along with libraries like pandas, numpy, and matplotlib, to handle data manipulation, analysis, and visualization. The Axxesso API will be employed to retrieve necessary data.
 
 ## Intended Code, Environment, Algorithms, and Tech Stack
 
@@ -33,21 +34,26 @@ In the expansive realm of online commerce, a wealth of valuable information is r
 | 10/25/2023 | Complete Project Proposal                          | Complete     |
 | 10/31/2023 | Import IPO data into Google Colab                  | Complete     |
 | 10/31/2023 | Determine focus data points                        | Complete     |
-| 11/4/2023  | Conduct simple statistical analysis                | Complete     |
-| 11/13/2023 | Create visualizations with Matplotlib, Seaborn     | Complete     |
-| 11/18/2023 | Implement dashboard software                       | Complete     |
-| 11/21/2023 | Create presentation slides                         | Complete     |
+| 11/14/2023 | Conduct simple statistical analysis                | Complete     |
+| 11/24/2023 | Create visualizations with Matplotlib, Seaborn     | Complete     |
+| 11/30/2023 | Implement dashboard software                       | Complete     |
+| 12/3/2023  | Create presentation slides                         | Complete     |
 
 
 
 
 
-### Setup
 
-1. once cloned run this command in the root directory of this project:
+3. Install the required dependencies by running the following command:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. After installing the dependencies, execute the following command to start the application:
 
     ```bash
     python gui.py
----
+    ```
 
 This project is licensed under the [MIT License](LICENSE).
